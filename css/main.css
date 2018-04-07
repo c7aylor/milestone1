@@ -1,0 +1,314 @@
+/****** BASE STYLES *******/
+
+body {
+    font-family: 'Pompiere', sans-serif;
+}
+#about, #work, #skills, #contact {
+    height: 600px;
+}
+
+/******* GRID *******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/******* HEADER *******/
+
+header {
+    height: 750px;
+    background: url('../img/pencils-image.png');
+    background-size: cover;
+}
+.header-bar {
+    height: 100px;
+    background-color: #847072;
+}
+.name {
+    font-family: 'stardos stencil', cursive;
+    float: left;
+    color: #9f8a8c;
+    font-size: 73pt;
+    margin-top: 0px;
+}
+.tag-line {
+    padding-top: 160px;
+    padding-left: 200px;
+    text-transform: uppercase;
+    color: #84707e;
+    font-size: 40pt;
+    position:absolute; 
+}
+nav {
+    padding-top: 50px;    
+}
+nav ul li {
+    display: inline-block;    
+}
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 40px;    
+}
+
+/******* ABOUT *******/
+
+#about {
+    background-color: #f7e9d1;
+}
+#about .full-width {
+    padding-top: 20px;
+}
+#about h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #847072;
+    float: left;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+#about img {
+    float: left;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+#about p {
+    padding-top: 5px;
+    padding-left: 45px;
+    clear: both;
+    font-family: 'Calibri', sans-serif;
+    font-size: 14pt;
+    color: #847072;
+    text-align: justify;
+}
+#about div #desk {
+    padding: 0;
+    float: right;
+    border: 12px solid #847072;
+    margin-top: 165px;
+    margin-right: 55px;
+}
+
+/******* SKILLS *******/
+
+#skills {
+    background-color:#f2e0c1;
+}
+#skills .full-width {
+    padding-top: 20px;
+}
+#skills h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #847072;
+    float: left;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+#skills img {
+    float: left;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+#skills .design {
+    float: center;
+    padding-top: 2px;
+    padding-left: 250px;
+    clear: both;
+}
+#skills div div .wdheading {
+    float: center;
+    padding-top: 350px;
+    margin-left: 263px;
+    font-size: 20pt;
+    color: #847072;
+    text-transform: uppercase;
+}
+#skills .wdparagraph {
+    float: left;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 50px;
+    text-align: justify;
+    color: #847072;
+    font-size: 18px;
+    font-family: 'calibri', sans-serif;
+}
+#skills .html {
+    float: right;
+    padding-top: 124px;    
+    padding-right: 50px;
+}
+#skills .css {
+    float: right;
+    padding-top: 124px;    
+    padding-right: 150px;
+}
+#skills .fedheading {
+    float: right;
+    padding-top: 13px;
+    margin-right: 200px;
+    font-size: 20pt;
+    color: #847072;
+    text-transform: uppercase;
+}
+#skills .fedparagraph {
+    float: right;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 100px;
+    text-align: justify;
+    color: #847072;
+    font-size: 18px;
+    font-family: 'calibri', sans-serif;
+}
+/******* WORK *******/
+
+#work {
+    background-color: #847072;
+}
+#work .full-width {
+    padding-top: 20px;
+}
+#work h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #f7e9d1;
+    float: left;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+#work img {
+    float: left;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+#work .icons {
+    float: center;
+    padding: 0px;
+    border: 12px solid #9f8a8c;
+    margin-left: 45px;
+}
+#work h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    float: left;
+    padding-left: 135px;
+    margin-top: 25px;    
+}
+#work p {
+    font-size: 18px;
+    color: white;
+    float: center;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    clear: both;
+    font-family: 'calibri', sans-serif;
+    text-align: justify;
+}
+#work .rogue {
+    float: right;
+    padding: 0px;
+    border: 12px solid #9f8a8c;
+    margin-top: 166px;
+    margin-right: 33px;
+}
+#work .jubilee {
+    float: right;
+    padding: 0px;
+    border: 12px solid #9f8a8c;
+    margin-top: 166px;
+    margin-right: 45px;
+}
+
+/******* CONTACT *******/
+
+#contact {
+    background: url('../img/contact-background.png');
+}
+#contact .full-width {
+    padding-top: 20px;
+}
+#contact h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #847072;
+    float: left;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+#contact .plane {
+    float: left;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+#contact h3 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: #847072;
+    margin-top: 0px;
+    clear: both;
+    margin-left: 45px;
+    margin-bottom: 25px;    
+}
+#contact .hire {
+    float: left;
+    border: 12px solid #847072;
+    margin-left: 45px;
+    margin-top: 0px;
+    clear: both;    
+}
+.my-name {
+    float: left;
+    font-size: 30px;
+    color: #847072;
+    margin-top: 275px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-weight: normal;
+}
+#contact a {
+    float: left;
+    text-decoration: none;
+    clear: both;
+    font-size: 30px;
+    color: #847072;
+    font-weight: normal;
+    margin-left: 5px;
+}
+#contact h4 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: #847072;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    clear: both;        
+}
+#contact ul {
+    list-style: none;
+    clear: both;
+    float: left;
+    padding: 0;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    padding-right: 25px;
+    float: left;
+}
